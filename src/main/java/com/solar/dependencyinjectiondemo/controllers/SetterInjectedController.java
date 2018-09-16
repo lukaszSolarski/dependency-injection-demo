@@ -8,7 +8,7 @@ It's better than property injected because it uses interface instead of concrete
 public class SetterInjectedController {
     private GreetingService greetingService;
 
-    String sayHello() {
+    public String sayHello() {
         return greetingService.sayGreeting();
     }
 
